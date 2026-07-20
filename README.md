@@ -49,3 +49,4 @@ The **Guess the Song Game Bot** is an NLP-driven application designed to challen
    ```bash
    git clone [https://github.com/anublossom/-Guess_the_song_game_bot.git](https://github.com/anublossom/-Guess_the_song_game_bot.git)
    python app.py
+3. **Result:** full project print is available in [https://github.com/anublossom/-Guess_the_song_game_bot/blob/main/full_file_with_results.pdf)
