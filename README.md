@@ -2,7 +2,7 @@
 
 An interactive Tamil music trivia game powered by Generative AI. This project implements a **Retrieval-Augmented Generation (RAG)** pipeline to provide accurate, context-aware song trivia while maintaining strict game logic via a deterministic state machine.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anublossom/-Guess_the_song_game_bot/blob/main/Guess_the_song/app.py)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anublossom/-Guess_the_song_game_bot/blob/main/Guess_the_song.ipynb)
 
 ## 🎯 Project Overview
 The **Guess the Song Game Bot** is an NLP-driven application designed to challenge users with A.R. Rahman’s discography[cite: 1]. It solves the "hallucination problem" typical in LLMs by using a hybrid architecture: the AI handles creative dialogue, while a deterministic Python layer ensures game mechanics and lyric data remain 100% accurate[cite: 1].
