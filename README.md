@@ -21,7 +21,8 @@ The **Guess the Song Game Bot** is an NLP-driven application designed to challen
 ### 2. LLM Brain & Orchestration
 * **LLM Interface:** Leverages `llama-3.1-8b-instant` (via Groq Cloud API) for natural language understanding and creative clue generation.
 * **Deterministic Orchestration:** Managed by a hybrid state-machine flow (modeled after `LangGraph`). A central Python loop intercepts user commands (e.g., "skip", "next line"), preventing the AI from hallucinating or breaking game rules.
-* **Prompt Engineering:** Uses instruction-based system prompting with negative constraints to force the AI into a witty trivia host persona while strictly forbidding the leak of song metadata.
+* **Prompt Engineering:** Uses instruction-based system prompting with negative constraints to force the AI into a witty trivia host persona.
+* ****Guardrails:**  Helps to strictly forbidding the leak of song metadata.
 
 ## 🛠️ Exhaustive Technical Stack
 
